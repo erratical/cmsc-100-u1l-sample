@@ -6,6 +6,9 @@ def showMenu():
     print("[0] Say Goodbye")
     return input("Enter choice: ")
 
+def addNumbers(a,b):
+    return a+b
+
 def main():
     while True:
         choice = showMenu()
