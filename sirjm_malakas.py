@@ -11,6 +11,13 @@ def addNumbers(a,b):
         return a+b
     else:
         return
+    
+# Hello i am a comment
+
+# Hello comment 2
+
+def funciton(a,b):
+    return a+b
 
 
 def main():
