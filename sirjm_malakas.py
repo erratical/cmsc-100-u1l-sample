@@ -7,7 +7,10 @@ def showMenu():
     return input("Enter choice: ")
 
 def addNumbers(a,b):
-    return a+b
+    if type(a) == int and type(b) == int:
+        return a+b
+    else
+        return -1
 
 def main():
     while True:
