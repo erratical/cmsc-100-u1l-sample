@@ -9,8 +9,9 @@ def showMenu():
 def addNumbers(a,b):
     if type(a) == int and type(b) == int:
         return a+b
-    else
-        return -1
+    else:
+        return
+
 
 def main():
     while True:
